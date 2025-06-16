@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<your-username>/argo-apps
+    repoURL: https://github.com/Sai-Groove/argo-apps
     path: apps
     directory:
       recurse: true
