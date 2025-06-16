@@ -7,8 +7,11 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Sai-Groove/argo-apps
-    path: base/nginx
+    path: helm/nginx
     targetRevision: HEAD
+    helm: 
+      valueFiles: 
+        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: default
